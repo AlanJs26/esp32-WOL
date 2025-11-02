@@ -1,5 +1,6 @@
 .DS_Store
 sdkconfig
+.cache/
 sdkconfig.old
 build/
 log.*

@@ -13,7 +13,7 @@ else()
 endif(DEFINED ENV{RMAKER_PATH})
 
 # Add RainMaker components and other common application components
-set(EXTRA_COMPONENT_DIRS ${RMAKER_PATH}/components/esp-insights/components ${RMAKER_PATH}/components ${RMAKER_PATH}/examples/common)
+set(EXTRA_COMPONENT_DIRS ${RMAKER_PATH}/components ${RMAKER_PATH}/examples/common)
 
 
 

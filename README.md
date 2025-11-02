@@ -1,5 +1,13 @@
 # ESP32 Wake On Lan
 
+## Fork changes
+
+- Setup to target the esp32c3 module
+- Fix dependencies inside CMakeLists.txt
+- Fix minor compilation errors
+
+---
+
 ## Introduction
 In this project I used an ESP32 to send Wake on Lan packet to power on my Computer. There is a web server where you can send WoL packet and change target MAC address. And for the laziest people I add [ESP RainMaker](https://github.com/espressif/esp-rainmaker/tree/master) project to send WoL packet from an assistant (like Google Home or Alexa).
 
